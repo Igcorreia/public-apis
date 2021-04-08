@@ -61,6 +61,7 @@ Please note a passing build status indicates all listed APIs are available since
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [Cat Facts](https://alexwohlbruck.github.io/cat-facts/) | Daily cat facts | No | Yes | No |
+| [catAPI](https://github.com/ThatCopy/catAPI/wiki/Usage) | Random pictures of cats | No | Yes | Yes |
 | [Cats](https://docs.thecatapi.com/) | Pictures of cats from Tumblr | `apiKey` | Yes | Unknown |
 | [Dog Facts](https://dukengn.github.io/Dog-facts-API/) | Random dog facts | No | Yes | Unknown |
 | [Dogs](https://dog.ceo/dog-api/) | Based on the Stanford Dogs Dataset | No | Yes | Yes |
@@ -1003,6 +1004,7 @@ API | Description | Auth | HTTPS | CORS |
 | [openSenseMap](https://api.opensensemap.org/) | Data from Personal Weather Stations called senseBoxes | No | Yes | Yes |
 | [OpenUV](https://www.openuv.io) | Real-time UV Index Forecast | `apiKey` | Yes | Unknown |
 | [OpenWeatherMap](https://openweathermap.org/api) | Weather | `apiKey` | Yes | Unknown |
+| [QWeather](https://dev.qweather.com/) | Location-based weather data | `apiKey` | Yes | Yes |
 | [Storm Glass](https://stormglass.io/) | Global marine weather from multiple sources | `apiKey` | Yes | Yes |
 | [TheRainery](https://therainery.com/documentation/) | Forecast models from meteorological institutes | `apiKey` | Yes | No |
 | [weather-api](https://github.com/robertoduessmann/weather-api) | A RESTful free API to check the weather | No | Yes | No |
