@@ -1,12 +1,12 @@
 # Public APIs [![Run tests](https://github.com/public-apis/public-apis/workflows/Run%20tests/badge.svg)](https://github.com/public-apis/public-apis/actions?query=workflow%3A%22Run+tests%22) [![Validate links](https://github.com/public-apis/public-apis/workflows/Validate%20links/badge.svg?branch=master)](https://github.com/public-apis/public-apis/actions?query=workflow%3A%22Validate+links%22)
 
-A collective list of free APIs for use in software and web development.
+*A collective list of free APIs for use in software and web development.*
 
 A public API for this project can be found [here](https://github.com/davemachado/public-api)!
 
-For information on contributing to this project, please see the [contributing guide](.github/CONTRIBUTING.md).
+For information on contributing to this project, please see the [contributing guide](CONTRIBUTING.md).
 
-Please note a passing build status indicates all listed APIs are available since the last update. A failing build status indicates that 1 or more services may be unavailable at the moment.
+**NOTE: A passing build status indicates all listed APIs are available since the last update. A failing build status indicates that 1 or more services may be unavailable at the moment.**
 
 ## Index
 
@@ -335,7 +335,7 @@ API | Description | Auth | HTTPS | CORS |
 | [PrexView](https://prexview.com) | Data from XML or JSON to PDF, HTML or Image | `apiKey` | Yes | Unknown |
 | [Restpack](https://restpack.io/) | Provides screenshot, HTML to PDF and content extraction APIs | `apiKey` | Yes | Unknown |
 | [Todoist](https://developer.todoist.com) | Todo Lists | `OAuth` | Yes | Unknown |
-| [Vector Express](http://vector.express) | Free vector file converting API | No | No | Yes |
+| [Vector Express v2.0](https://vector.express) | Free vector file converting API | No | Yes | No |
 | [WakaTime](https://wakatime.com/developers) | Automated time tracking leaderboards for programmers | No | Yes | Unknown |
 | [Zube](https://zube.io/docs/api) | Full stack project management | `OAuth` | Yes | Unknown |
 
@@ -373,6 +373,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Plaid](https://plaid.com/) | Connect with users’ bank accounts and access transaction data | `apiKey` | Yes | Unknown |
 | [Razorpay IFSC](https://ifsc.razorpay.com/) | Indian Financial Systems Code (Bank Branch Codes) | No | Yes | Unknown |
 | [Tradier](https://developer.tradier.com) | US equity/option market data (delayed, intraday, historical) | `OAuth` | Yes | Yes |
+| [Twelve Data](https://twelvedata.com/) | Stock market data (real-time & historical) | `apiKey` | Yes | Unknown |
 | [YNAB](https://api.youneedabudget.com/) | Budgeting & Planning | `OAuth` | Yes | Yes |
 
 **[⬆ Back to Index](#index)**
@@ -759,6 +760,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Numbers](http://numbersapi.com) | Facts about numbers | No | No | Unknown |
 | [Open Notify](http://open-notify.org/Open-Notify-API/) | ISS astronauts, current location, etc | No | No | Unknown |
 | [Open Science Framework](https://developer.osf.io) | Repository and archive for study designs, research materials, data, manuscripts, etc | No | Yes | Unknown |
+| [Satellite Passes](https://satellites.fly.dev) | Query next satellite passes above you | No | Yes | Yes |
 | [SHARE](https://share.osf.io/api/v2/) | A free, open, dataset about research and scholarly activities | No | Yes | Unknown |
 | [SpaceX](https://github.com/r-spacex/SpaceX-API) | Company, vehicle, launchpad and launch data | No | Yes | Unknown |
 | [Sunrise and Sunset](https://sunrise-sunset.org/api) | Sunset and sunrise times for a given latitude and longitude | No | Yes | Unknown |
@@ -1018,3 +1020,8 @@ API | Description | Auth | HTTPS | CORS |
 | [weatherstack](https://weatherstack.com/) | Real-Time & Historical World Weather Data API | `apiKey` | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
+
+<br>
+
+## License
+[MIT](LICENSE)
