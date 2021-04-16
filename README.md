@@ -127,6 +127,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Open Library](https://openlibrary.org/developers/api) | Books, book covers and related data | No | Yes | No |
 | [Penguin Publishing](http://www.penguinrandomhouse.biz/webservices/rest/) | Books, book covers and related data | No | Yes | Yes |
 | [Rig Veda](https://aninditabasu.github.io/indica/html/rv.html) | Gods and poets, their categories, and the verse meters, with the mandal and sukta number | No | Yes | Unknown |
+| [Shrimad Bhagavad Gita](https://vedicscriptures.github.io/) | Open Source Shrimad Bhagavad Gita API including 21+ authors translation in Sanskrit/English/Hindi | No | Yes | Yes |
 | [Vedic Society](https://aninditabasu.github.io/indica/html/vs.html) | Descriptions of all nouns (names, places, animals, things) from vedic literature | No | Yes | Unknown |
 
 **[⬆ Back to Index](#index)**
@@ -799,6 +800,7 @@ API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
 | [Best Buy](https://bestbuyapis.github.io/api-documentation/#overview) | Products, Buying Options, Categories, Recommendations, Stores and Commerce | `apiKey` | Yes | Unknown |
 | [Bratabase](https://developers.bratabase.com/) | Database of different types of Bra Sizes | `OAuth` | Yes | Unknown |
+| [Dummy Products](https://dummyproducts-api.herokuapp.com/) | An api to fetch dummy e-commerce products JSON data with placeholder images | `apiKey` | Yes | Yes |
 | [eBay](https://go.developer.ebay.com/) | Sell and Buy on eBay | `OAuth` | Yes | Unknown |
 | [Etsy](https://www.etsy.com/developers/documentation/getting_started/api_basics) | Manage shop and interact with listings | `OAuth` | Yes | Unknown |
 | [Wal-Mart](https://developer.walmartlabs.com/docs) | Item price and availability | `apiKey` | Yes | Unknown |
