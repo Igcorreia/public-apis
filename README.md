@@ -454,12 +454,14 @@ API | Description | Auth | HTTPS | CORS |
 | [Dark Souls 3](https://blog.mugenmonkey.com/2017/09/10/ds3-api.html) | Information about Dark Souls 3 Items | No | Yes | Unknown |
 | [Deck of Cards](http://deckofcardsapi.com/) | Deck of Cards | No | No | Unknown |
 | [Destiny The Game](https://github.com/Bungie-net/api) | Bungie Platform API | `apiKey` | Yes | Unknown |
-| [Dota 2](https://docs.opendota.com/) | Provides information about Player stats , Match stats, Rankings for Dota 2 | No | Yes | Unknown |
+| [Dota 2](https://docs.opendota.com/) | Provides information about Player stats , Match stats, Rankings for Dota 2 | `apiKey` | Yes | Unknown |
 | [Dungeons and Dragons](http://www.dnd5eapi.co/) | Reference for 5th edition spells, classes, monsters, and more | No | No | No |
 | [Eve Online](https://esi.evetech.net/ui) | Third-Party Developer Documentation | `OAuth` | Yes | Unknown |
 | [FIFA Ultimate Team](https://www.easports.com/fifa/ultimate-team/api/fut/item) | FIFA Ultimate Team items API | No | Yes | Unknown |
 | [Final Fantasy XIV](https://xivapi.com/) | Final Fantasy XIV Game data API | No | Yes | Yes |
 | [Fortnite](https://fortnitetracker.com/site-api) | Fortnite Stats | `apiKey` | Yes | Unknown |
+| [FreeToGame](https://www.freetogame.com/api-doc) | Free-To-Play Games Database | No | Yes | Yes |
+| [GamerPower](https://www.gamerpower.com/api-read) | Game Giveaways Tracker | No | Yes | Yes |
 | [Giant Bomb](https://www.giantbomb.com/api/documentation) | Video Games | `apiKey` | Yes | Unknown |
 | [Guild Wars 2](https://wiki.guildwars2.com/wiki/API:Main) | Guild Wars 2 Game Information | `apiKey` | Yes | Unknown |
 | [GW2Spidy](https://github.com/rubensayshi/gw2spidy/wiki) | GW2Spidy API, Items data on the Guild Wars 2 Trade Market | No | Yes | Unknown |
@@ -1047,6 +1049,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Is.gd](https://is.gd/developers.php) | URL Shortening API | No | Yes | Unknown |
 | [LiteLink](https://litelink.ml/) | Simple URL Shortener | No | Yes | Yes |
 | [Rebrandly](https://developers.rebrandly.com/v1/docs) | Custom URL shortener for sharing branded links | `apiKey` | Yes | Unknown |
+| [Shrtcode](https://shrtco.de/docs) | URl Shortener with multiple Domains | No | Yes | Yes |
 | [Shrtlnk](https://shrtlnk.dev/developer) | Simple and efficient short link creation | `apiKey` | Yes | Yes |
 | [T.LY](https://t.ly/docs) | URL shortener API | No | Yes | No |
 | [TinyUID](https://tinyuid.com/docs) | Shorten long URLs | No | Yes | Yes |
