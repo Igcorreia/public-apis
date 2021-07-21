@@ -288,7 +288,6 @@ API | Description | Auth | HTTPS | CORS |
 | [ApicAgent](https://www.apicagent.com) | Extract device details from user-agent string | No | Yes | Yes |
 | [ApiFlash](https://apiflash.com/) | Chrome based screenshot API for developers | `apiKey` | Yes | Unknown |
 | [APIs.guru](https://apis.guru/api-doc/) | Wikipedia for Web APIs, OpenAPI/Swagger specs for public APIs | No | Yes | Unknown |
-| [BetterMeta](http://bettermeta.io) | Return a site's meta tags in JSON format | `X-Mashape-Key` | Yes | Unknown |
 | [Bitbucket](https://developer.atlassian.com/bitbucket/api/2/reference/) | Bitbucket API | `OAuth` | Yes | Unknown |
 | [Blitapp](https://blitapp.com/api/) | Schedule screenshots of web pages and sync them to your cloud | `apiKey` | Yes | Unknown |
 | [Bored](https://www.boredapi.com/) | Find random activities to fight boredom | No | Yes | Unknown |
@@ -677,6 +676,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Machine Learning
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
+| [AI For Thai](https://aiforthai.in.th/index.php) | Free Various Thai AI API | `apiKey` | Yes | Yes |
 | [Clarifai](https://docs.clarifai.com) | Computer Vision | `OAuth` | Yes | Unknown |
 | [Cloudmersive](https://www.cloudmersive.com/image-recognition-and-processing-api) | Image captioning, face recognition, NSFW classification | `apiKey` | Yes | Yes |
 | [Deepcode](https://www.deepcode.ai) | AI for code review | No | Yes | Unknown |
