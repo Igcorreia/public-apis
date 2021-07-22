@@ -14,6 +14,7 @@ For information on contributing to this project, please see the [contributing gu
 * [Anime](#anime)
 * [Anti-Malware](#anti-malware)
 * [Art & Design](#art--design)
+* [Authentication](#authentication)
 * [Books](#books)
 * [Business](#business)
 * [Calendar](#calendar)
@@ -80,6 +81,7 @@ API | Description | Auth | HTTPS | CORS |
 ### Anime
 API | Description | Auth | HTTPS | CORS |
 |---|---|---|---|---|
+| [AniAPI](https://github.com/AniAPI-Team/AniAPI) | Anime discovery, streaming & syncing with trackers | `OAuth` | Yes | Yes |
 | [AniList](https://github.com/AniList/ApiV2-GraphQL-Docs) | Anime discovery & tracking | `OAuth` | Yes | Unknown |
 | [AnimeChan](https://github.com/RocktimSaikia/anime-chan) | Anime quotes (over 10k+) | No | Yes | No |
 | [AnimeNewsNetwork](https://www.animenewsnetwork.com/encyclopedia/api.php) | Anime industry news | No | Yes | Yes |
@@ -120,6 +122,14 @@ API | Description | Auth | HTTPS | CORS |
 | [PHP-Noise](https://php-noise.com/) | Noise Background Image Generator | No | Yes | Yes |
 | [Pixel Encounter](https://pixelencounter.com/api) | SVG Icon Generator | No | Yes | No |
 | [Rijksmuseum](https://www.rijksmuseum.nl/en/api) | Art | `apiKey` | Yes | Unknown |
+
+**[⬆ Back to Index](#index)**
+### Authentication
+API | Description | Auth | HTTPS | CORS |
+|---|---|---|---|---|
+| [Auth0](https://auth0.com) | Easy to implement, adaptable authentication and authorization platform | `apiKey` | Yes | Yes |
+| [Micro User Service](https://m3o.com/user) | User management and authentication | `apiKey` | Yes | No |
+| [Stytch](https://stytch.com/) | User infrastructure for modern applications | `apiKey` | Yes | No |
 
 **[⬆ Back to Index](#index)**
 ### Books
@@ -309,9 +319,11 @@ API | Description | Auth | HTTPS | CORS |
 | [Glitterly](https://developers.glitterly.app) | Image generation API | `apiKey` | Yes | Yes |
 | [Gorest](https://gorest.co.in/) | Online REST API for Testing and Prototyping | `OAuth` | Yes | Unknown |
 | [Hexabin](https://hexabin.herokuapp.com/) | Convert and retrieve hexadecimal, binary, decimal, and octal values with ease | No | No | Unknown |
+| [host-t.com](https://host-t.com) | Basic DNS query via HTTP GET request | No | Yes | No |
 | [Host.io](https://host.io) | Domains Data API for Developers | `apiKey` | Yes | Yes |
 | [HTTP2.Pro](https://http2.pro/doc/api) | Test endpoints for client and server HTTP/2 protocol support | No | Yes | Unknown |
 | [Httpbin](https://httpbin.org/) | A Simple HTTP Request & Response Service | No | Yes | Yes |
+| [Httpbin Cloudflare](https://cloudflare-quic.com/b/) | A Simple HTTP Request & Response Service with HTTP/3 Support by Cloudflare | No | Yes | Yes |
 | [IBM Text to Speech](https://cloud.ibm.com/docs/text-to-speech/getting-started.html) | Convert text to speech | `apiKey` | Yes | Yes |
 | [Icanhazepoch](https://icanhazepoch.com) | Get Epoch time | No | Yes | Yes |
 | [Icanhazip](https://major.io/icanhazip-com-faq/) | IP Address API | No | Yes | Yes |
@@ -462,6 +474,7 @@ API | Description | Auth | HTTPS | CORS |
 | [AmiiboAPI](https://amiiboapi.com/) | Nintendo Amiibo Information | No | Yes | Yes |
 | [Animal Crossing: New Horizons](http://acnhapi.com/) | API for critters, fossils, art, music, furniture and villagers | No | Yes | Unknown |
 | [Autochess VNG](https://github.com/didadadida93/autochess-vng-api) | Rest Api for Autochess VNG | No | Yes | Yes |
+| [Barter.VG](https://github.com/bartervg/barter.vg/wiki) | Provides information about Game, DLC, Bundles, Giveaways, Trading | No | Yes | Yes |
 | [Board Game Geek](https://boardgamegeek.com/wiki/page/BGG_XML_API2) | Board games, RPG and videogames | No | Yes | No |
 | [Brawl Stars](https://developer.brawlstars.com) | Brawl Stars Game Information | `apiKey` | Yes | Unknown |
 | [CheapShark](https://www.cheapshark.com/api) | Steam/PC Game Prices and Deals | No | Yes | Yes |
@@ -661,6 +674,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Adzuna](https://developer.adzuna.com/overview) | Job board aggregator | `apiKey` | Yes | Unknown |
 | [Careerjet](https://www.careerjet.com/partners/api/) | Job search engine | `apiKey` | No | Unknown |
 | [DevITjobs UK](https://devitjobs.uk/job_feed.xml) | Jobs with GraphQL | No | Yes | Yes |
+| [Findwork](https://findwork.dev/developers/) | Job board | `apiKey` | Yes | Unknown |
 | [GraphQL Jobs](https://graphql.jobs/docs/api/) | Jobs with GraphQL | No | Yes | Yes |
 | [Jobs2Careers](http://api.jobs2careers.com/api/spec.pdf) | Job aggregator | `apiKey` | Yes | Unknown |
 | [Jooble](https://us.jooble.org/api/about) | Job search engine | `apiKey` | Yes | Unknown |
@@ -710,6 +724,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Jamendo](https://developer.jamendo.com/v3.0/docs) | Music | `OAuth` | Yes | Unknown |
 | [JioSaavn](https://github.com/cyberboysumanjay/JioSaavnAPI) | API to retrive song information, album meta data and many more from JioSaavn | No | Yes | Unknown |
 | [KKBOX](https://developer.kkbox.com) | Get music libraries, playlists, charts, and perform out of KKBOX's platform | `OAuth` | Yes | Unknown |
+| [KSoft.Si Lyrics](https://docs.ksoft.si/api/lyrics-api) | API to get lyrics for songs | `apiKey` | Yes | Unknown |
 | [LastFm](https://www.last.fm/api) | Music | `apiKey` | Yes | Unknown |
 | [Lyrics.ovh](http://docs.lyricsovh.apiary.io/) | Simple API to retrieve the lyrics of a song | No | Yes | Unknown |
 | [Mixcloud](https://www.mixcloud.com/developers/) | Music | `OAuth` | Yes | Yes |
@@ -808,7 +823,6 @@ API | Description | Auth | HTTPS | CORS |
 | [Quotable Quotes](https://github.com/lukePeavey/quotable) | Quotable is a free, open source quotations API | No | Yes | Unknown |
 | [Quote Garden](https://pprathameshmore.github.io/QuoteGarden/) | REST API for more than 5000 famous quotes | No | Yes | Unknown |
 | [Quotes on Design](https://quotesondesign.com/api/) | Inspirational Quotes | No | Yes | Unknown |
-| [taylor.rest](https://taylor.rest) | REST API for random Taylor Swift quotes | No | Yes | No |
 | [Traitify](https://app.traitify.com/developer) | Assess, collect and analyze Personality | No | Yes | Unknown |
 | [Vadivelu HTTP Codes](https://vadivelu.anoram.com/) | On demand HTTP Codes with images | No | Yes | No |
 | [Yo Momma Jokes](https://github.com/beanboi7/yomomma-apiv2) | REST API for Yo Momma Jokes | No | Yes | Unknown |
@@ -891,7 +905,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Mozilla http scanner](https://github.com/mozilla/http-observatory/blob/master/httpobs/docs/api.md) | Mozilla observatory http scanner | No | Yes | Unknown |
 | [Mozilla tls scanner](https://github.com/mozilla/tls-observatory#api-endpoints) | Mozilla observatory tls scanner | No | Yes | Unknown |
 | [National Vulnerability Database](https://nvd.nist.gov/vuln/Data-Feeds/JSON-feed-changelog) | U.S. National Vulnerability Database | No | Yes | Unknown |
-| [Passwordinator](https://github.com/fawazsullia/password-generator/) | Generate random passwords of varying complexities | No | Yes | Yes | 
+| [Passwordinator](https://github.com/fawazsullia/password-generator/) | Generate random passwords of varying complexities | No | Yes | Yes |
 | [PhishStats](https://phishstats.info/) | Phishing database | No | Yes | Unknown |
 | [Pulsedive](https://pulsedive.com/api/) | Scan, search and collect threat intelligence data in real-time | `apiKey` | Yes | Unknown |
 | [SecurityTrails](https://securitytrails.com/corp/apidocs) | Domain and IP related information such as current and historical WHOIS and DNS records | `apiKey` | Yes | Unknown |
